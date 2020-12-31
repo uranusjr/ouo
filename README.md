@@ -34,6 +34,12 @@ environment variable. The interpreter would then perform a zip import to
 execute the pip module inside the wheel.
 
 
+## What's up with the name?
+
+I often mistype `pip` on one of my keyboards. `ouo` is `pip` shifted one
+position to the left on QWERTY.
+
+
 ## Future Works
 
 * `setuptools` and `wheel` are still needed to build legacy (non-PEP-517)
