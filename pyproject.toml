@@ -20,12 +20,8 @@ requires = [
     "packaging-dists",
 ]
 
-[tool.flit.metadata.requires-extra]
-compat = ["virtualenv >=20.0.3"]
-test = ["pytest"]
-
 [tool.flit.scripts]
-pyem = "ouo:main"
+ouo = "ouo:main"
 
 [tool.black]
 line-length = 79
